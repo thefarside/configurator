@@ -5,6 +5,9 @@ namespace Configurator\Settings;
 class Example {
 
 	public static function initialize() : void {
+		add_filter( 'permalink_base_author_custom', array( static::class, 'permalink_base_author_custom' ), PHP_INT_MAX );
+		add_filter( 'permalink_base_category_custom', array( static::class, 'permalink_base_category_custom' ), PHP_INT_MAX );
+		add_filter( 'register_post_type_params', array( static::class, 'register_post_type_params' ), PHP_INT_MAX );
 		add_filter( 'blacklist_editor_blocks', array( static::class, 'blacklist_editor_blocks' ), PHP_INT_MAX );
 		add_filter( 'blacklist_editor_panels', array( static::class, 'blacklist_editor_panels' ), PHP_INT_MAX );
 		add_filter( 'blacklist_editor_patterns', array( static::class, 'blacklist_editor_patterns' ), PHP_INT_MAX );
@@ -25,6 +28,36 @@ class Example {
 		add_filter( 'set_persistent_user_meta', array( static::class, 'set_persistent_user_meta' ), PHP_INT_MAX );
 		add_filter( 'rest_endpoint_whitelist', array( static::class, 'rest_endpoint_whitelist' ), PHP_INT_MAX );
 		return;
+	}
+
+	public static function permalink_base_author_custom() : string {
+		return '';
+	}
+
+	public static function permalink_base_category_custom() : string {
+		return '';
+	}
+
+	public static function register_post_type_params() : array {
+		return array(
+			'labels' => array(
+				'name'          => 'Custom Posts',
+				'singular_name' => 'Custom Post',
+				'menu_name'     => 'Custom Posts',
+				'add_new'       => 'Add New Custom Posts',
+				'add_new_item'  => 'Add New Custom Posts',
+				'new_item'      => 'New Custom Post',
+				'edit_item'     => 'Edit Custom Post',
+				'view_item'     => 'View Custom Post',
+				'all_items'     => 'All Custom Posts',
+				'search_items'  => 'Search Custom Posts',
+			),
+			'public' => true,
+			'has_archive' => true,
+			'show_in_rest' => true,
+			'supports' => array( 'title', 'editor', 'author', 'thumbnail', 'excerpt' ),
+			'menu_position' => 5,
+		);
 	}
 
 	public static function blacklist_editor_blocks() : array {
