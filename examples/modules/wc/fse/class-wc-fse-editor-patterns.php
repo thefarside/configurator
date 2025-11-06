@@ -8,6 +8,7 @@ class WC_FSE_Editor_Patterns {
 
 	public static function initialize() : void {
 		add_action( 'init', array( static::class, 'unregister_editor_patterns' ), PHP_INT_MAX );
+		return;
 	}
 
 	public static function unregister_editor_patterns() : void {
