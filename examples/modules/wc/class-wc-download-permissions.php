@@ -46,6 +46,7 @@ class WC_Download_Permissions {
 	}
 
 	public static function disable_endpoints() : void {
+		if ( ! function_exists( 'is_wc_endpoint_url' ) ) return;
 		if ( ! WC()->customer->get_downloadable_products() && is_wc_endpoint_url( 'downloads' ) ) {
 			HTTP_Status_Codes::set_404();
 		}

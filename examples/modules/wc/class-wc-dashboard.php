@@ -16,6 +16,7 @@ class WC_Dashboard {
 	}
 
 	public static function disable_endpoints() : void {
+		if ( ! function_exists( 'is_wc_endpoint_url' ) ) return;
 		if ( is_account_page() && ! is_wc_endpoint_url() && is_user_logged_in() ) {
 			$url = wc_get_account_endpoint_url( 'orders' );
 			if ( ! wc_get_orders( array( 'customer_id' => get_current_user_id() ) ) ) {

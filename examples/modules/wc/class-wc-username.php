@@ -38,6 +38,7 @@ class WC_Username {
 	}
 
 	public static function revise_template_sections( DOMDocument $document, DOMXPath $selector ) : DOMDocument {
+		if ( ! function_exists( 'is_wc_endpoint_url' ) ) return $document;
 		if( is_wc_endpoint_url( 'edit-account' )  ) {
 			$first_name = $selector->querySelector( '//p[.//input[@id = "account_first_name"]]' );
 			$last_name = $selector->querySelector( '//p[.//input[@id = "account_last_name"]]' );

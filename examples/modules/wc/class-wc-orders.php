@@ -18,6 +18,7 @@ class WC_Orders {
 	}
 
 	public static function disable_endpoints() : void {
+		if ( ! function_exists( 'is_wc_endpoint_url' ) ) return;
 		if( is_wc_endpoint_url( 'orders' ) && ! wc_get_orders( array( 'customer_id' => get_current_user_id() ) ) ) {
 			wp_safe_redirect( wc_get_account_endpoint_url( 'edit-account' ) );
 		}

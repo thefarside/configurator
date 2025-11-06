@@ -15,6 +15,7 @@ class WC_Marketplace {
 		add_filter( 'woocommerce_marketplace_menu_items', array( Return_Types::class, 'return_empty_array' ), PHP_INT_MAX );
 		add_filter( 'set_302-admin.php', array( static::class, 'set_redirect' ), PHP_INT_MAX, 1 );
 		add_action( 'admin_head', array( static::class, 'remove_admin_note' ), PHP_INT_MAX );
+		return;
 	}
 
 	public static function disable_settings() : void {
@@ -36,6 +37,7 @@ class WC_Marketplace {
 	}
 
 	public static function remove_admin_note() : void {
+		if ( ! class_exists( 'Automattic\WooCommerce\Admin\Notes\Notes' ) ) return;
 		remove_action( 'admin_head', array( WooSubscriptionsNotes::class, 'admin_head' ) );
 		Notes::delete_notes_with_name( 'wc-admin-wc-helper-connection' );
 		return;
