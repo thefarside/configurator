@@ -5,7 +5,6 @@ namespace Configurator\Modules;
 use WP_Customize_Manager;
 use DOMDocument;
 use Configurator\Helpers\DOMXPath;
-use Configurator\Helpers\Return_Types;
 
 class Posts {
 
