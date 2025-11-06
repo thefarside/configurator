@@ -52,7 +52,7 @@ class Disabled_Usernames {
 
 	public static function revise_settings( DOMDocument $document, DOMXPath $selector ) : DOMDocument {
 		$username = $selector->querySelector( '//input[@id="user_login"]' );
-		$username?->removeAttribute( 'disabled' );
+		$username?->removeAttribute( 'readonly' );
 		$warning = $selector->querySelector( '//span[text() = "Usernames cannot be changed."]' );
 		$warning?->remove();
 		return $document;

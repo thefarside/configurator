@@ -3,7 +3,7 @@
  * Plugin Name: Configurator
  * Update URI: https://github.com/thefarside/configurator
  * Description: Additional site configuration.
- * Version: 1.0.0
+ * Version: 1.0.1
  */
 
 namespace Configurator;

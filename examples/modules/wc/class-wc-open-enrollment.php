@@ -11,6 +11,7 @@ class WC_Open_Enrollment {
 	}
 
 	public static function disable_settings() : void {
+		update_option( 'woocommerce_enable_delayed_account_creation', 'no' );
 		update_option( 'woocommerce_enable_signup_and_login_from_checkout', 'no' );
 		update_option( 'woocommerce_enable_myaccount_registration', 'no' );
 		update_option( 'woocommerce_registration_generate_username', 'no' );
@@ -20,6 +21,7 @@ class WC_Open_Enrollment {
 
 	public static function remove_settings( array $account_settings ) : array {
 		$removals = array(
+			'woocommerce_enable_delayed_account_creation',
 			'woocommerce_enable_signup_and_login_from_checkout',
 			'woocommerce_enable_myaccount_registration',
 			'woocommerce_registration_generate_username',

@@ -16,14 +16,14 @@ It's also worth noting that this plugin and supplied modules don't contain any t
 
 ## Requirements
 
- + PHP 8.3.12
- + Wordpress 6.6.2
+ + PHP 8.4.11
+ + Wordpress 6.8.3
 
 ### Compatibility
 
  + Multisite
  + Gutenberg + FSE
- + WooCommerce 9.3.3
+ + WooCommerce 10.3.4
 
 ## Installation
 
