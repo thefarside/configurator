@@ -9,6 +9,7 @@ class WC_Custom_Fields {
 	public static function initialize() : void {
 		add_action( 'add_meta_boxes', array( static::class, 'remove_meta_boxes' ), PHP_INT_MAX );
 		add_action( 'woocommerce_admin_get_feature_config', array( static::class, 'disable_new_product_editor_feature' ), PHP_INT_MAX, 1 );
+		return;
 	}
 
 	public static function remove_meta_boxes() : void {

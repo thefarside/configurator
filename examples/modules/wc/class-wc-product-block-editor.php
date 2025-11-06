@@ -7,6 +7,7 @@ class WC_Product_Block_Editor {
 	public static function initialize() : void {
 		add_filter( 'woocommerce_admin_get_feature_config', array( static::class, 'disable_feature' ), PHP_INT_MAX, 1 );
 		add_filter( 'woocommerce_feature_setting', array( static::class, 'remove_settings' ), PHP_INT_MAX, 2 );
+		return;
 	}
 
 	public static function disable_feature( array $features ) : array {

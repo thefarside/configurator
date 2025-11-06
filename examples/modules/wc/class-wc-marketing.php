@@ -10,6 +10,7 @@ class WC_Marketing {
 		add_action( 'admin_menu', array( static::class, 'remove_admin_menu_page' ), PHP_INT_MAX );
 		add_filter( 'woocommerce_admin_get_feature_config', array( static::class, 'set_legacy_coupon_menu' ), PHP_INT_MAX, 1 );
 		remove_filter( 'woocommerce_admin_shared_settings', array( 'Automattic\WooCommerce\Internal\Admin\Marketing', 'component_settings' ), 30 );
+		return;
 	}
 
 	public static function remove_marketing_task( array $features ) : array {

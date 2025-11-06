@@ -6,6 +6,7 @@ class WC_Menus_Metaboxes {
 
 	public static function initialize() : void {
 		add_action( 'admin_head', array( static::class, 'remove_menu_metaboxes' ), PHP_INT_MAX );
+		return;
 	}
 
 	public static function remove_menu_metaboxes() : void {
