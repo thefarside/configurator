@@ -3,7 +3,7 @@
 namespace Configurator\Modules\MS;
 
 use DOMDocument;
-use DOMXPath;
+use Configurator\Helpers\DOMXPath;
 
 class MS_Comments {
 

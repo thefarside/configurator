@@ -3,7 +3,7 @@
 namespace Configurator\Modules;
 
 use DOMDocument;
-use DOMXPath;
+use Configurator\Helpers\DOMXPath;
 
 class Profile_About {
 
