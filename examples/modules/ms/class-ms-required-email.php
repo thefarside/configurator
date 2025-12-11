@@ -1,4 +1,13 @@
 <?php
+/**
+ * Module Name: MS Required Email
+ * Module URI: https://github.com/thefarside/configurator/tree/main/examples/modules/ms/class-ms-required-email.php
+ * Version: 0.0.1
+ * Description: Extends Configurator\Modules\Required_Email to include multisite fields and GUI elements.
+ * Requires at least: 6.9
+ * Requires PHP: 8.4.11
+ * Requires Modules: Configurator\Helpers\DOMXPath, \DOMDocument
+ */
 
 namespace Configurator\Modules\MS;
 

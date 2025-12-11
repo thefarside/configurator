@@ -1,4 +1,13 @@
 <?php
+/**
+ * Module Name: MS Emails Change
+ * Module URI: https://github.com/thefarside/configurator/tree/main/examples/modules/ms/class-ms-emails-change.php
+ * Version: 0.0.1
+ * Description: Disables sending changed password notification receipt to old network admin.
+ * Requires at least: 6.9
+ * Requires PHP: 8.4.11
+ * Requires Modules: Configurator\Helpers\Return_Types
+ */
 
 namespace Configurator\Modules\MS;
 

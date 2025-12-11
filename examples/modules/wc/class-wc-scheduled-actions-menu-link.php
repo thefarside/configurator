@@ -1,4 +1,12 @@
 <?php
+/**
+ * Module Name: WC Scheduled Actions Menu Link
+ * Module URI: https://github.com/thefarside/configurator/tree/main/examples/modules/wc/class-wc-scheduled-actions-menu-link.php
+ * Version: 0.0.1
+ * Description: Removes "Scheduled Actions" from the Tools menu.
+ * Requires at least: 6.9
+ * Requires PHP: 8.4.11
+ */
 
 namespace Configurator\Modules\WC;
 

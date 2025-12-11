@@ -1,4 +1,13 @@
 <?php
+/**
+ * Module Name: Emails Comments
+ * Module URI: https://github.com/thefarside/configurator/tree/main/examples/modules/class-emails-comments.php
+ * Version: 0.0.1
+ * Description: Disables sending comment related admin notification emails and removes their settings GUI elements.
+ * Requires at least: 6.9
+ * Requires PHP: 8.4.11
+ * Requires Modules: Configurator\Helpers\DOMXPath, \DOMDocument
+ */
 
 namespace Configurator\Modules;
 

@@ -1,4 +1,12 @@
 <?php
+/**
+ * Module Name: MS Dashboard Widgets
+ * Module URI: https://github.com/thefarside/configurator/tree/main/examples/modules/ms/class-ms-dashboard-widgets.php
+ * Version: 0.0.1
+ * Description: Disables all the default widgets on the network dashboard.
+ * Requires at least: 6.9
+ * Requires PHP: 8.4.11
+ */
 
 namespace Configurator\Modules\MS;
 

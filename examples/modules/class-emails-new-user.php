@@ -1,4 +1,13 @@
 <?php
+/**
+ * Module Name: Emails New User
+ * Module URI: https://github.com/thefarside/configurator/tree/main/examples/modules/class-emails-new-user.php
+ * Version: 0.0.1
+ * Description: Disables sending user registration receipt email and removes related GUI elements.
+ * Requires at least: 6.9
+ * Requires PHP: 8.4.11
+ * Requires Modules: Configurator\Helpers\Return_Types, \DOMDocument
+ */
 
 namespace Configurator\Modules;
 

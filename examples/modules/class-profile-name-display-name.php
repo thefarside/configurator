@@ -1,4 +1,13 @@
 <?php
+/**
+ * Module Name: Profile Name Display Name
+ * Module URI: https://github.com/thefarside/configurator/tree/main/examples/modules/class-profile-name-display-name.php
+ * Version: 0.0.1
+ * Description: Removes the "Display name publicly as" field from the user profile page and related "author" GUI elements.
+ * Requires at least: 6.9
+ * Requires PHP: 8.4.11
+ * Requires Modules: Configurator\Helpers\Return_Types, Configurator\Helpers\DOMXPath, \DOMDocument
+ */
 
 namespace Configurator\Modules;
 

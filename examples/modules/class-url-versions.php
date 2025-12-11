@@ -1,4 +1,12 @@
 <?php
+/**
+ * Module Name: URL Versions
+ * Module URI: https://github.com/thefarside/configurator/tree/main/examples/modules/class-url-versions.php
+ * Version: 0.0.1
+ * Description: Disables auto appending a "cache breaking" version number on styles and scripts.
+ * Requires at least: 6.9
+ * Requires PHP: 8.4.11
+ */
 
 namespace Configurator\Modules;
 

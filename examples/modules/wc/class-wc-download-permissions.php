@@ -1,4 +1,13 @@
 <?php
+/**
+ * Module Name: WC Download Permissions
+ * Module URI: https://github.com/thefarside/configurator/tree/main/examples/modules/wc/class-wc-download-permissions.php
+ * Version: 0.0.1
+ * Description: Disables WooCommerce "Download product permissions" meta box from the edit order page and removes related GUI elements.
+ * Requires at least: 6.9
+ * Requires PHP: 8.4.11
+ * Requires Modules: Configurator\Helpers\HTTP_Status_Codes
+ */
 
 namespace Configurator\Modules\WC;
 

@@ -1,4 +1,12 @@
 <?php
+/**
+ * Module Name: Custom Fields
+ * Module URI: https://github.com/thefarside/configurator/tree/main/examples/modules/class-custom-fields.php
+ * Version: 0.0.1
+ * Description: Removes the "Custom Fields" meta box from the non-FSE editors.
+ * Requires at least: 6.9
+ * Requires PHP: 8.4.11
+ */
 
 namespace Configurator\Modules;
 

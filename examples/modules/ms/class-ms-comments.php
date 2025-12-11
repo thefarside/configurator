@@ -1,4 +1,13 @@
 <?php
+/**
+ * Module Name: MS Comments
+ * Module URI: https://github.com/thefarside/configurator/tree/main/examples/modules/ms/class-ms-comments.php
+ * Version: 0.0.1
+ * Description: Removes the multisite specific GUI elements for post type "comments".
+ * Requires at least: 6.9
+ * Requires PHP: 8.4.11
+ * Requires Modules: Configurator\Helpers\DOMXPath, \DOMDocument
+ */
 
 namespace Configurator\Modules\MS;
 

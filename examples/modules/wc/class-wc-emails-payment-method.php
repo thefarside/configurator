@@ -1,4 +1,13 @@
 <?php
+/**
+ * Module Name: WC Emails Payment Method
+ * Module URI: https://github.com/thefarside/configurator/tree/main/examples/modules/wc/class-wc-emails-payment-method.php
+ * Version: 0.0.1
+ * Description: Disables sending WooCommerce payment gateway enabled receipts to the site admin.
+ * Requires at least: 6.9
+ * Requires PHP: 8.4.11
+ * Requires Modules: \WC_Payment_Gateways
+ */
 
 namespace Configurator\Modules\WC;
 

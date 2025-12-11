@@ -1,4 +1,12 @@
 <?php
+/**
+ * Module Name: HTTP Status Codes
+ * Module URI: https://github.com/thefarside/configurator/tree/main/examples/helpers/class-http-status-codes.php
+ * Version: 0.0.1
+ * Description: Helpers to handle HTTP codes consistently.
+ * Requires at least: 6.9
+ * Requires PHP: 8.4.11
+ */
 
 namespace Configurator\Helpers;
 

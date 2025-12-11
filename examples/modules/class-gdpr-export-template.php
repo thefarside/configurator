@@ -1,4 +1,12 @@
 <?php
+/**
+ * Module Name: GDPR Export Template
+ * Module URI: https://github.com/thefarside/configurator/tree/main/examples/modules/class-gdpr-export-template.php
+ * Version: 0.0.1
+ * Description: Example plugin that templates how to hook into GDPR Export.
+ * Requires at least: 6.9
+ * Requires PHP: 8.4.11
+ */
 
 namespace Configurator\Modules;
 

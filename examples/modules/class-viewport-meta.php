@@ -1,4 +1,12 @@
 <?php
+/**
+ * Module Name: Viewport Meta
+ * Module URI: https://github.com/thefarside/configurator/tree/main/examples/modules/class-viewport-meta.php
+ * Version: 0.0.1
+ * Description: Removes <meta name="viewport"> from <head> site wide.
+ * Requires at least: 6.9
+ * Requires PHP: 8.4.11
+ */
 
 namespace Configurator\Modules;
 

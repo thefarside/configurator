@@ -1,4 +1,13 @@
 <?php
+/**
+ * Module Name: Recovery Mode
+ * Module URI: https://github.com/thefarside/configurator/tree/main/examples/modules/class-recovery-mode.php
+ * Version: 0.0.1
+ * Description: Disables recovery mode.
+ * Requires at least: 6.9
+ * Requires PHP: 8.4.11
+ * Requires Modules: Configurator\Helpers\Return_Types
+ */
 
 namespace Configurator\Modules;
 

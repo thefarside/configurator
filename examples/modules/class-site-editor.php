@@ -1,4 +1,12 @@
 <?php
+/**
+ * Module Name: Site Editor
+ * Module URI: https://github.com/thefarside/configurator/tree/main/examples/modules/class-site-editor.php
+ * Version: 0.0.1
+ * Description: Removes and disables the "Appearance > Editor" menu item and page.
+ * Requires at least: 6.9
+ * Requires PHP: 8.4.11
+ */
 
 namespace Configurator\Modules;
 

@@ -1,4 +1,12 @@
 <?php
+/**
+ * Module Name: FSE Profile About Biography
+ * Module URI: https://github.com/thefarside/configurator/tree/main/examples/modules/fse/class-fse-profile-about-biography.php
+ * Version: 0.0.1
+ * Description: Removes the author biography block from Gutenberg editors.
+ * Requires at least: 6.9
+ * Requires PHP: 8.4.11
+ */
 
 namespace Configurator\Modules\FSE;
 

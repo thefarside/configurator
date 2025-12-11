@@ -1,4 +1,13 @@
 <?php
+/**
+ * Module Name: Classic Widgets
+ * Module URI: https://github.com/thefarside/configurator/tree/main/examples/modules/class-classic-widgets.php
+ * Version: 0.0.1
+ * Description: Disables using a block editor on the Widgets admin page.
+ * Requires at least: 6.9
+ * Requires PHP: 8.4.11
+ * Requires Modules: Configurator\Helpers\Return_Types
+ */
 
 namespace Configurator\Modules;
 

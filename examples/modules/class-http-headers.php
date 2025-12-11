@@ -1,4 +1,13 @@
 <?php
+/**
+ * Module Name: HTTP Headers
+ * Module URI: https://github.com/thefarside/configurator/tree/main/examples/modules/class-http-headers.php
+ * Version: 0.0.1
+ * Description: Facilitates complete filtering of request headers including cookies.
+ * Requires at least: 6.9
+ * Requires PHP: 8.4.11
+ * Requires Modules: \WpOrg\Requests\Cookie
+ */
 
 namespace Configurator\Modules;
 

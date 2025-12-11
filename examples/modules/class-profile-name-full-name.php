@@ -1,4 +1,13 @@
 <?php
+/**
+ * Module Name: Profile Name Full Name
+ * Module URI: https://github.com/thefarside/configurator/tree/main/examples/modules/class-profile-name-full-name.php
+ * Version: 0.0.1
+ * Description: Removes the first and last name fields from user profile pages and related GUI elements from within the admin area.
+ * Requires at least: 6.9
+ * Requires PHP: 8.4.11
+ * Requires Modules: Configurator\Helpers\DOMXPath, \DOMDocument
+ */
 
 namespace Configurator\Modules;
 

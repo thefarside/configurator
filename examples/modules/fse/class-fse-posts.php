@@ -1,4 +1,13 @@
 <?php
+/**
+ * Module Name: FSE Posts
+ * Module URI: https://github.com/thefarside/configurator/tree/main/examples/modules/fse/class-fse-posts.php
+ * Version: 0.0.1
+ * Description: Removes post blocks and panels from Gutenberg editors.
+ * Requires at least: 6.9
+ * Requires PHP: 8.4.11
+ * Requires Modules: Configurator\Helpers\FSE
+ */
 
 namespace Configurator\Modules\FSE;
 

@@ -1,4 +1,12 @@
 <?php
+/**
+ * Module Name: Head
+ * Module URI: https://github.com/thefarside/configurator/tree/main/examples/modules/class-head.php
+ * Version: 0.0.1
+ * Description: Facilitates adding entries to <head> site wide or by page.
+ * Requires at least: 6.9
+ * Requires PHP: 8.4.11
+ */
 
 namespace Configurator\Modules;
 

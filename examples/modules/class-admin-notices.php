@@ -1,4 +1,12 @@
 <?php
+/**
+ * Module Name: Admin Notices
+ * Module URI: https://github.com/thefarside/configurator/tree/main/examples/modules/class-admin-notices.php
+ * Version: 0.0.1
+ * Description: Disables all admin notices in the admin area.
+ * Requires at least: 6.9
+ * Requires PHP: 8.4.11
+ */
 
 namespace Configurator\Modules;
 

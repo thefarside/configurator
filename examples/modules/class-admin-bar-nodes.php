@@ -1,4 +1,12 @@
 <?php
+/**
+ * Module Name: Admin Bar Nodes
+ * Module URI: https://github.com/thefarside/configurator/tree/main/examples/modules/class-admin-bar-nodes.php
+ * Version: 0.0.1
+ * Description: Filter admin bar entries.
+ * Requires at least: 6.9
+ * Requires PHP: 8.4.11
+ */
 
 namespace Configurator\Modules;
 

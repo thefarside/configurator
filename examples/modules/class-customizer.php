@@ -1,4 +1,12 @@
 <?php
+/**
+ * Module Name: Customizer
+ * Module URI: https://github.com/thefarside/configurator/tree/main/examples/modules/class-customizer.php
+ * Version: 0.0.1
+ * Description: Removes the "Customize" button from themes, redirects the endpoint with HTTP code 302 and removes any related GUI elements.
+ * Requires at least: 6.9
+ * Requires PHP: 8.4.11
+ */
 
 namespace Configurator\Modules;
 

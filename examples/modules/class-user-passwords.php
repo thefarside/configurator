@@ -1,4 +1,13 @@
 <?php
+/**
+ * Module Name: User Passwords
+ * Module URI: https://github.com/thefarside/configurator/tree/main/examples/modules/class-user-passwords.php
+ * Version: 0.0.1
+ * Description: Prevents non-admin roles from being able to reset their password and removes relevant GUI elements.
+ * Requires at least: 6.9
+ * Requires PHP: 8.4.11
+ * Requires Modules: Configurator\Helpers\DOMXPath, \DOMDocument, \WP_User
+ */
 
 namespace Configurator\Modules;
 

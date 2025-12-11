@@ -1,4 +1,13 @@
 <?php
+/**
+ * Module Name: Auto Update Themes
+ * Module URI: https://github.com/thefarside/configurator/tree/main/examples/modules/class-auto-update-themes.php
+ * Version: 0.0.1
+ * Description: Disables theme auto updates, removes related notifications.
+ * Requires at least: 6.9
+ * Requires PHP: 8.4.11
+ * Requires Modules: Configurator\Helpers\Return_Types
+ */
 
 namespace Configurator\Modules;
 

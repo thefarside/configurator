@@ -1,4 +1,12 @@
 <?php
+/**
+ * Module Name: Persistent User Meta
+ * Module URI: https://github.com/thefarside/configurator/tree/main/examples/modules/class-persistent-user-meta.php
+ * Version: 0.0.1
+ * Description: Force all users to use specific settings, regardless of profile configuration.
+ * Requires at least: 6.9
+ * Requires PHP: 8.4.11
+ */
 
 namespace Configurator\Modules;
 

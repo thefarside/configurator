@@ -1,4 +1,13 @@
 <?php
+/**
+ * Module Name: WC Legacy Reports
+ * Module URI: https://github.com/thefarside/configurator/tree/main/examples/modules/wc/class-wc-legacy-reports.php
+ * Version: 0.0.1
+ * Description: Rolls back WooCommerce "Reports" to the old version and fixes/removes warnings.
+ * Requires at least: 6.9
+ * Requires PHP: 8.4.11
+ * Requires Modules: \DOMDocument
+ */
 
 namespace Configurator\Modules\WC;
 

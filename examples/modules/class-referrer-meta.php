@@ -1,4 +1,12 @@
 <?php
+/**
+ * Module Name: Referrer Meta
+ * Module URI: https://github.com/thefarside/configurator/tree/main/examples/modules/class-referrer-meta.php
+ * Version: 0.0.1
+ * Description: Removes <meta name="referrer"> from <head> on wp-login.php.
+ * Requires at least: 6.9
+ * Requires PHP: 8.4.11
+ */
 
 namespace Configurator\Modules;
 

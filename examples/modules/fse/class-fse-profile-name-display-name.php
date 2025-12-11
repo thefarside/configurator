@@ -1,4 +1,12 @@
 <?php
+/**
+ * Module Name: FSE Profile Name Display Name
+ * Module URI: https://github.com/thefarside/configurator/tree/main/examples/modules/fse/class-fse-profile-name-display-name.php
+ * Version: 0.0.1
+ * Description: Removes the post author blocks and panels from Gutenberg editors.
+ * Requires at least: 6.9
+ * Requires PHP: 8.4.11
+ */
 
 namespace Configurator\Modules\FSE;
 

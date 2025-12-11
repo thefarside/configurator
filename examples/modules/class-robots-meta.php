@@ -1,4 +1,13 @@
 <?php
+/**
+ * Module Name: Robots Meta
+ * Module URI: https://github.com/thefarside/configurator/tree/main/examples/modules/class-robots-meta.php
+ * Version: 0.0.1
+ * Description: Removes <meta name="robots"> from <head> and removes the related GUI elements of the admin settings.
+ * Requires at least: 6.9
+ * Requires PHP: 8.4.11
+ * Requires Modules: Configurator\Helpers\DOMXPath, \DOMDocument
+ */
 
 namespace Configurator\Modules;
 

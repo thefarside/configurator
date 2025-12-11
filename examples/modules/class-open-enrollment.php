@@ -1,4 +1,13 @@
 <?php
+/**
+ * Module Name: Open Enrollment
+ * Module URI: https://github.com/thefarside/configurator/tree/main/examples/modules/class-open-enrollment.php
+ * Version: 0.0.1
+ * Description: Disables open enrollment and removes the related GUI elements.
+ * Requires at least: 6.9
+ * Requires PHP: 8.4.11
+ * Requires Modules: Configurator\Helpers\DOMXPath, \DOMDocument
+ */
 
 namespace Configurator\Modules;
 

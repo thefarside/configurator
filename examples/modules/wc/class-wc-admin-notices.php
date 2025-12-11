@@ -1,4 +1,13 @@
 <?php
+/**
+ * Module Name: WC Admin Notices
+ * Module URI: https://github.com/thefarside/configurator/tree/main/examples/modules/wc/class-wc-admin-notices.php
+ * Version: 0.0.1
+ * Description: Disables WooCommerce admin notices in the admin area.
+ * Requires at least: 6.9
+ * Requires PHP: 8.4.11
+ * Requires Modules: Configurator\Helpers\Return_Types
+ */
 
 namespace Configurator\Modules\WC;
 

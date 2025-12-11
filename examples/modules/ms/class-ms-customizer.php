@@ -1,4 +1,12 @@
 <?php
+/**
+ * Module Name: MS Customizer
+ * Module URI: https://github.com/thefarside/configurator/tree/main/examples/modules/ms/class-ms-customizer.php
+ * Version: 0.0.1
+ * Description: Removes the multisite specific "Appearance > Customize" admin menu item that appears for non-FSE themes.
+ * Requires at least: 6.9
+ * Requires PHP: 8.4.11
+ */
 
 namespace Configurator\Modules\MS;
 

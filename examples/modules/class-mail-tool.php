@@ -1,4 +1,13 @@
 <?php
+/**
+ * Module Name: Mail Tool
+ * Module URI: https://github.com/thefarside/configurator/tree/main/examples/modules/class-mail-tool.php
+ * Version: 0.0.1
+ * Description: Sets "from" for emails site wide and copies all emails to a log file, useful for development environments without mail servers.
+ * Requires at least: 6.9
+ * Requires PHP: 8.4.11
+ * Requires Modules: \WP_Error
+ */
 
 namespace Configurator\Modules;
 

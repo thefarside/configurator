@@ -1,4 +1,13 @@
 <?php
+/**
+ * Module Name: MS Emails New Site
+ * Module URI: https://github.com/thefarside/configurator/tree/main/examples/modules/ms/class-ms-emails-new-site.php
+ * Version: 0.0.1
+ * Description: Disables sending all emails related to new site registration and removes the related GUI elements.
+ * Requires at least: 6.9
+ * Requires PHP: 8.4.11
+ * Requires Modules: Configurator\Helpers\Return_Types, Configurator\Helpers\DOMXPath, \DOMDocument
+ */
 
 namespace Configurator\Modules\MS;
 

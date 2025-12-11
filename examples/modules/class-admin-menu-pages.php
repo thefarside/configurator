@@ -1,4 +1,12 @@
 <?php
+/**
+ * Module Name: Admin Menu Pages
+ * Module URI: https://github.com/thefarside/configurator/tree/main/examples/modules/class-admin-menu-pages.php
+ * Version: 0.0.1
+ * Description: Filter out entries in the admin menu.
+ * Requires at least: 6.9
+ * Requires PHP: 8.4.11
+ */
 
 namespace Configurator\Modules;
 

@@ -1,4 +1,12 @@
 <?php
+/**
+ * Module Name: Return Types
+ * Module URI: https://github.com/thefarside/configurator/tree/main/examples/helpers/class-return-types.php
+ * Version: 0.0.1
+ * Description: Helpers to handle return types consistently and avoid hooking anonymous functions.
+ * Requires at least: 6.9
+ * Requires PHP: 8.4.11
+ */
 
 namespace Configurator\Helpers;
 

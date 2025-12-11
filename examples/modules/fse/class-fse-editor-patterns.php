@@ -1,4 +1,13 @@
 <?php
+/**
+ * Module Name: FSE Editor Patterns
+ * Module URI: https://github.com/thefarside/configurator/tree/main/examples/modules/fse/class-fse-editor-patterns.php
+ * Version: 0.0.1
+ * Description: Facilitates filtering out patterns from Gutenberg editors.
+ * Requires at least: 6.9
+ * Requires PHP: 8.4.11
+ * Requires Modules: \WP_Block_Patterns_Registry
+ */
 
 namespace Configurator\Modules\FSE;
 

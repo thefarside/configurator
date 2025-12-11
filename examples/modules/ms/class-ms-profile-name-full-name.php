@@ -1,4 +1,12 @@
 <?php
+/**
+ * Module Name: MS Profile Name Full Name
+ * Module URI: https://github.com/thefarside/configurator/tree/main/examples/modules/ms/class-ms-profile-name-full-name.php
+ * Version: 0.0.1
+ * Description: Extends Configurator\Modules\Profile_Name_Full_Name to include multisite fields and GUI elements.
+ * Requires at least: 6.9
+ * Requires PHP: 8.4.11
+ */
 
 namespace Configurator\Modules\MS;
 

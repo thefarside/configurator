@@ -1,4 +1,14 @@
 <?php
+/**
+ * Module Name: View Own Content Backend
+ * Module URI: https://github.com/thefarside/configurator/tree/main/examples/modules/class-view-own-content-backend.php
+ * Version: 0.0.1
+ * Description: Prevents non-admin roles from viewing other users content in the backend and removes relevant GUI elements.
+ * Requires at least: 6.9
+ * Requires PHP: 8.4.11
+ * Requires Modules: Configurator\Helpers\DOMXPath, \DOMDocument, \WP_Query
+ */
+
 namespace Configurator\Modules;
 
 use WP_Query;

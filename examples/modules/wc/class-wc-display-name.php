@@ -1,4 +1,13 @@
 <?php
+/**
+ * Module Name: WC Display Name
+ * Module URI: https://github.com/thefarside/configurator/tree/main/examples/modules/wc/class-wc-display-name.php
+ * Version: 0.0.1
+ * Description: Disables WooCommerce "Display Name" from "Account Details" on the front-end and removes related GUI elements.
+ * Requires at least: 6.9
+ * Requires PHP: 8.4.11
+ * Requires Modules: Configurator\Helpers\DOMXPath, \DOMDocument
+ */
 
 namespace Configurator\Modules\WC;
 

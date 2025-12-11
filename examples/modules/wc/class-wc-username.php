@@ -1,4 +1,13 @@
 <?php
+/**
+ * Module Name: WC Username 
+ * Module URI: https://github.com/thefarside/configurator/tree/main/examples/modules/wc/class-wc-username.php
+ * Version: 0.0.1
+ * Description: Removes WooCommerce usernames (uses email address for login) and adjusts verbiage/GUI elements accordingly.
+ * Requires at least: 6.9
+ * Requires PHP: 8.4.11
+ * Requires Modules: Configurator\Helpers\DOMXPath, \DOMDocument
+ */
 
 namespace Configurator\Modules\WC;
 

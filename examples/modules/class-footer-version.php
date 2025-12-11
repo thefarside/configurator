@@ -1,4 +1,13 @@
 <?php
+/**
+ * Module Name: Footer Version
+ * Module URI: https://github.com/thefarside/configurator/tree/main/examples/modules/class-footer-version.php
+ * Version: 0.0.1
+ * Description: Removes "Version X.X" from the bottom of admin pages.
+ * Requires at least: 6.9
+ * Requires PHP: 8.4.11
+ * Requires Modules: Configurator\Helpers\Return_Types
+ */
 
 namespace Configurator\Modules;
 

@@ -1,4 +1,12 @@
 <?php
+/**
+ * Module Name: GDPR Erase
+ * Module URI: https://github.com/thefarside/configurator/tree/main/examples/modules/class-gdpr-erase.php
+ * Version: 0.0.1
+ * Description: Sets GDPR Erase to purge the default user data from the database.
+ * Requires at least: 6.9
+ * Requires PHP: 8.4.11
+ */
 
 namespace Configurator\Modules;
 

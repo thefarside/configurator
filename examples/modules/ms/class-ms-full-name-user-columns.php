@@ -1,4 +1,12 @@
 <?php
+/**
+ * Module Name: MS Full Name User Columns
+ * Module URI: https://github.com/thefarside/configurator/tree/main/examples/modules/ms/class-ms-full-name-user-columns.php
+ * Version: 0.0.1
+ * Description: Extends Configurator\Modules\Full_Name_User_Columns to include multisite fields and GUI elements.
+ * Requires at least: 6.9
+ * Requires PHP: 8.4.11
+ */
 
 namespace Configurator\Modules\MS;
 

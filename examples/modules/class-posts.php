@@ -1,4 +1,13 @@
 <?php
+/**
+ * Module Name: Posts
+ * Module URI: https://github.com/thefarside/configurator/tree/main/examples/modules/class-posts.php
+ * Version: 0.0.1
+ * Description: Disables the default post type "Post" and related features, removes all related GUI elements from within the admin area and purges any existing database entries.
+ * Requires at least: 6.9
+ * Requires PHP: 8.4.11
+ * Requires Modules: Configurator\Helpers\DOMXPath, \DOMDocument, \WP_Customize_Manager
+ */
 
 namespace Configurator\Modules;
 

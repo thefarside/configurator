@@ -1,4 +1,12 @@
 <?php
+/**
+ * Module Name: WC Order Attribution
+ * Module URI: https://github.com/thefarside/configurator/tree/main/examples/modules/wc/class-wc-order-attribution.php
+ * Version: 0.0.1
+ * Description: Disables the WooCommerce "Order Attribution" feature.
+ * Requires at least: 6.9
+ * Requires PHP: 8.4.11
+ */
 
 namespace Configurator\Modules\WC;
 

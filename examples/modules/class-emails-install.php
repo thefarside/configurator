@@ -1,4 +1,12 @@
 <?php
+/**
+ * Module Name: Emails Install
+ * Module URI: https://github.com/thefarside/configurator/tree/main/examples/modules/class-emails-install.php
+ * Version: 0.0.1
+ * Description: Disables sending the welcome email for a new install.
+ * Requires at least: 6.9
+ * Requires PHP: 8.4.11
+ */
 
 namespace Configurator\Modules;
 

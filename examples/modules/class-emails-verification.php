@@ -1,4 +1,13 @@
 <?php
+/**
+ * Module Name: Emails Verification
+ * Module URI: https://github.com/thefarside/configurator/tree/main/examples/modules/class-emails-verification.php
+ * Version: 0.0.1
+ * Description: Removes the requirement to verify email changes across all roles.
+ * Requires at least: 6.9
+ * Requires PHP: 8.4.11
+ * Requires Modules: \DOMDocument
+ */
 
 namespace Configurator\Modules;
 

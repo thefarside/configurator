@@ -1,4 +1,12 @@
 <?php
+/**
+ * Module Name: WC Tracking
+ * Module URI: https://github.com/thefarside/configurator/tree/main/examples/modules/wc/class-wc-tracking.php
+ * Version: 0.0.1
+ * Description: Disables "Woocommerce.com" usage tracking.
+ * Requires at least: 6.9
+ * Requires PHP: 8.4.11
+ */
 
 namespace Configurator\Modules\WC;
 

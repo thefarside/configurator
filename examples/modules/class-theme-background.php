@@ -1,4 +1,12 @@
 <?php
+/**
+ * Module Name: Theme Background
+ * Module URI: https://github.com/thefarside/configurator/tree/main/examples/modules/class-theme-background.php
+ * Version: 0.0.1
+ * Description: Disables custom background support for non-FSE themes.
+ * Requires at least: 6.9
+ * Requires PHP: 8.4.11
+ */
 
 namespace Configurator\Modules;
 

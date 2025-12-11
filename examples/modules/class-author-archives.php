@@ -1,4 +1,13 @@
 <?php
+/**
+ * Module Name: Author Archives
+ * Module URI: https://github.com/thefarside/configurator/tree/main/examples/modules/class-author-archives.php
+ * Version: 0.0.1
+ * Description: Disables author archive pages with HTTP code 404 and removes related GUI elements.
+ * Requires at least: 6.9
+ * Requires PHP: 8.4.11
+ * Requires Modules: Configurator\Helpers\Return_Types, Configurator\Helpers\HTTP_Status_Codes
+ */
 
 namespace Configurator\Modules;
 

@@ -1,4 +1,12 @@
 <?php
+/**
+ * Module Name: Permalink Base Author Custom
+ * Module URI: https://github.com/thefarside/configurator/tree/main/examples/modules/class-permalink-base-author-custom.php
+ * Version: 0.0.1
+ * Description: Change the default permalink base from "author" or remove it altogether.
+ * Requires at least: 6.9
+ * Requires PHP: 8.4.11
+ */
 
 namespace Configurator\Modules;
 

@@ -1,4 +1,12 @@
 <?php
+/**
+ * Module Name: MS Signup FSE Warn
+ * Module URI: https://github.com/thefarside/configurator/tree/main/examples/modules/ms/class-ms-signup-fse-warn.php
+ * Version: 0.0.1
+ * Description: Removes the depreciation notice displayed on wp-signup.php when using an FSE theme.
+ * Requires at least: 6.9
+ * Requires PHP: 8.4.11
+ */
 
 namespace Configurator\Modules\MS;
 

@@ -1,4 +1,12 @@
 <?php
+/**
+ * Module Name: Help Tab
+ * Module URI: https://github.com/thefarside/configurator/tree/main/examples/modules/class-help-tab.php
+ * Version: 0.0.1
+ * Description: Removes the "help" tab from admin area pages.
+ * Requires at least: 6.9
+ * Requires PHP: 8.4.11
+ */
 
 namespace Configurator\Modules;
 

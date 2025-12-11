@@ -1,4 +1,12 @@
 <?php
+/**
+ * Module Name: Debug
+ * Module URI: https://github.com/thefarside/configurator/tree/main/examples/modules/class-debug.php
+ * Version: 0.0.1
+ * Description: Dump all actions with parameters in order starting after 'muplugins_loaded' and SQL queries to log files for the page load.
+ * Requires at least: 6.9
+ * Requires PHP: 8.4.11
+ */
 
 namespace Configurator\Modules;
 

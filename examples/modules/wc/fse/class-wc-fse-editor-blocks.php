@@ -1,4 +1,12 @@
 <?php
+/**
+ * Module Name: WC FSE Editor Blocks
+ * Module URI: https://github.com/thefarside/configurator/tree/main/examples/modules/wc/fse/class-wc-fse-editor-blocks.php
+ * Version: 0.0.1
+ * Description: Facilitates filtering out WooCommerce blocks from Gutenberg editors.
+ * Requires at least: 6.9
+ * Requires PHP: 8.4.11
+ */
 
 namespace Configurator\Modules\WC\FSE;
 

@@ -1,4 +1,12 @@
 <?php
+/**
+ * Module Name: WC Dashboard
+ * Module URI: https://github.com/thefarside/configurator/tree/main/examples/modules/wc/class-wc-dashboard.php
+ * Version: 0.0.1
+ * Description: Removes "Dashboard" under "My Account" on the front-end.
+ * Requires at least: 6.9
+ * Requires PHP: 8.4.11
+ */
 
 namespace Configurator\Modules\WC;
 

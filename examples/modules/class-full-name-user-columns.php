@@ -1,4 +1,12 @@
 <?php
+/**
+ * Module Name: Full Name User Columns
+ * Module URI: https://github.com/thefarside/configurator/tree/main/examples/modules/class-full-name-user-columns.php
+ * Version: 0.0.1
+ * Description: Replaces the "name" column with "first name" and "last name" columns on the All Users admin page.
+ * Requires at least: 6.9
+ * Requires PHP: 8.4.11
+ */
 
 namespace Configurator\Modules;
 

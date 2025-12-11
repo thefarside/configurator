@@ -1,4 +1,12 @@
 <?php
+/**
+ * Module Name: WC FSE Company Field
+ * Module URI: https://github.com/thefarside/configurator/tree/main/examples/modules/wc/fse/class-wc-fse-company-field.php
+ * Version: 0.0.1
+ * Description: Removes the "Company" field and panel options from the WooCommerce "checkout" block.
+ * Requires at least: 6.9
+ * Requires PHP: 8.4.11
+ */
 
 namespace Configurator\Modules\WC\FSE;
 

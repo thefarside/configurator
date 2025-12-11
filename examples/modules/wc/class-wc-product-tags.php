@@ -1,4 +1,13 @@
 <?php
+/**
+ * Module Name: WC Product Tags
+ * Module URI: https://github.com/thefarside/configurator/tree/main/examples/modules/wc/class-wc-product-tags.php
+ * Version: 0.0.1
+ * Description: Disables WooCommerce product "Tags" and related GUI elements.
+ * Requires at least: 6.9
+ * Requires PHP: 8.4.11
+ * Requires Modules: Configurator\Helpers\DOMXPath, \DOMDocument
+ */
 
 namespace Configurator\Modules\WC;
 

@@ -1,4 +1,13 @@
 <?php
+/**
+ * Module Name: Customizer CSS
+ * Module URI: https://github.com/thefarside/configurator/tree/main/examples/modules/class-customizer-css.php
+ * Version: 0.0.1
+ * Description: Removes the "Custom CSS" and "Colors" sections from the non-FSE site editor.
+ * Requires at least: 6.9
+ * Requires PHP: 8.4.11
+ * Requires Modules: Configurator\Helpers\FSE, \WP_Customize_Manager
+ */
 
 namespace Configurator\Modules;
 

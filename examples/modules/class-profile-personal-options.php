@@ -1,4 +1,13 @@
 <?php
+/**
+ * Module Name: Profile Personal Options
+ * Module URI: https://github.com/thefarside/configurator/tree/main/examples/modules/class-profile-personal-options.php
+ * Version: 0.0.1
+ * Description: Removes the "Personal Options" section from user profile pages.
+ * Requires at least: 6.9
+ * Requires PHP: 8.4.11
+ * Requires Modules: Configurator\Helpers\DOMXPath, \DOMDocument
+ */
 
 namespace Configurator\Modules;
 

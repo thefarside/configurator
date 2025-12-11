@@ -1,6 +1,14 @@
 <?php
+/**
+ * Module Name: Example
+ * Module URI: https://github.com/thefarside/configurator/tree/main/examples/filters/class-example.php
+ * Version: 0.0.1
+ * Description: A master list of all possible filters provided by Configurator modules with examples.
+ * Requires at least: 6.9
+ * Requires PHP: 8.4.11
+ */
 
-namespace Configurator\Settings;
+namespace Configurator\Filters;
 
 class Example {
 

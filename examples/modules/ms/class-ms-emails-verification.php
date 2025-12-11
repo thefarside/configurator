@@ -1,4 +1,13 @@
 <?php
+/**
+ * Module Name: MS Emails Verification
+ * Module URI: https://github.com/thefarside/configurator/tree/main/examples/modules/ms/class-ms-emails-verification.php
+ * Version: 0.0.1
+ * Description: Extends Configurator\Modules\Emails_Verification to include multisite fields and GUI elements.
+ * Requires at least: 6.9
+ * Requires PHP: 8.4.11
+ * Requires Modules: \DOMDocument
+ */
 
 namespace Configurator\Modules\MS;
 
