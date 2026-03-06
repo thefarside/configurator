@@ -4,8 +4,8 @@
  * Module URI: https://github.com/thefarside/configurator/tree/main/examples/helpers/class-return-types.php
  * Version: 0.0.1
  * Description: Helpers to handle return types consistently and avoid hooking anonymous functions.
- * Requires at least: 6.9
- * Requires PHP: 8.4.11
+ * Requires at least: 6.9.1
+ * Requires PHP: 8.5.1
  */
 
 namespace Configurator\Helpers;

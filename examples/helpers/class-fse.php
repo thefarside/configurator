@@ -4,8 +4,8 @@
  * Module URI: https://github.com/thefarside/configurator/tree/main/examples/helpers/class-fse.php
  * Version: 0.0.1
  * Description: Helper functions for FSE related operations.
- * Requires at least: 6.9
- * Requires PHP: 8.4.11
+ * Requires at least: 6.9.1
+ * Requires PHP: 8.5.1
  */
 
 namespace Configurator\Helpers;

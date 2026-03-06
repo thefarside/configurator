@@ -4,8 +4,8 @@
  * Module URI: https://github.com/thefarside/configurator/tree/main/examples/modules/class-installs.php
  * Version: 0.0.1
  * Description: Disables web installs.
- * Requires at least: 6.9
- * Requires PHP: 8.4.11
+ * Requires at least: 6.9.1
+ * Requires PHP: 8.5.1
  * Requires Modules: Configurator\Helpers\Return_Types
  */
 
