@@ -4,8 +4,8 @@
  * Module URI: https://github.com/thefarside/configurator/tree/main/examples/modules/class-rest.php
  * Version: 0.0.1
  * Description: Disables all non-whitelisted Rest endpoints with HTTP code 403.
- * Requires at least: 6.9
- * Requires PHP: 8.4.11
+ * Requires at least: 7.0
+ * Requires PHP: 8.5.1
  * Requires Modules: Configurator\Helpers\HTTP_Status_Codes
  */
 

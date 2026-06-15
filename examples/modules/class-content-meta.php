@@ -4,8 +4,8 @@
  * Module URI: https://github.com/thefarside/configurator/tree/main/examples/modules/class-content-meta.php
  * Version: 0.0.1
  * Description: Replaces any old <meta http-equiv="Content-Type" content="XXX"> entries with the new <meta charset="XXX"> syntax.
- * Requires at least: 6.9
- * Requires PHP: 8.4.11
+ * Requires at least: 7.0
+ * Requires PHP: 8.5.1
  * Requires Modules: Configurator\Helpers\DOMXPath, \DOMDocument
  */
 

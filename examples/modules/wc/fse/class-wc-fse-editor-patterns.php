@@ -4,8 +4,8 @@
  * Module URI: https://github.com/thefarside/configurator/tree/main/examples/modules/wc/fse/class-wc-fse-editor-patterns.php
  * Version: 0.0.1
  * Description: Facilitates filtering out WooCommerce patterns from Gutenberg editors.
- * Requires at least: 6.9
- * Requires PHP: 8.4.11
+ * Requires at least: 7.0
+ * Requires PHP: 8.5.1
  * Requires Modules: \WP_Block_Patterns_Registry
  */
 
@@ -23,13 +23,16 @@ class WC_FSE_Editor_Patterns {
 	public static function unregister_editor_patterns() : void {
 		$wc_patterns  = array(
 			'woocommerce-blocks/banner',
+			'woocommerce/coming-soon-entire-site',
+			'woocommerce/coming-soon-store-only',
+			'woocommerce/coming-soon',
 			'woocommerce-blocks/content-right-with-image-left',
 			'woocommerce-blocks/featured-category-cover-image',
 			'woocommerce-blocks/featured-category-triple',
 			'woocommerce-blocks/footer-large',
 			'woocommerce-blocks/footer-simple-menu',
 			'woocommerce-blocks/footer-with-3-menus',
-			'woocommerce-blocks/form-image-grid-content-left',
+			'woocommerce-blocks/four-image-grid-content-left',
 			'woocommerce-blocks/header-centered-menu',
 			'woocommerce-blocks/header-distraction-free',
 			'woocommerce-blocks/header-essential',

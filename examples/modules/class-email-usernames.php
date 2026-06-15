@@ -4,8 +4,8 @@
  * Module URI: https://github.com/thefarside/configurator/tree/main/examples/modules/class-email-usernames.php
  * Version: 0.0.1
  * Description: Forces usernames to be email addresses and updates the verbiage of all related notices and GUI elements site wide accordingly.
- * Requires at least: 6.9
- * Requires PHP: 8.4.11
+ * Requires at least: 7.0
+ * Requires PHP: 8.5.1
  * Requires Modules: Configurator\Helpers\DOMXPath, \DOMDocument, \WP_Error
  */
 

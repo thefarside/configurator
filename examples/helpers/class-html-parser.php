@@ -4,7 +4,7 @@
  * Module URI: https://github.com/thefarside/configurator/tree/main/examples/helpers/class-html-parser.php
  * Version: 0.0.1
  * Description: Page parser built specifically to handle HTML5 in WordPress.
- * Requires at least: 6.9.1
+ * Requires at least: 7.0
  * Requires PHP: 8.5.1
  */
 

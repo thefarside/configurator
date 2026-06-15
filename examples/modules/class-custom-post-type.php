@@ -4,8 +4,8 @@
  * Module URI: https://github.com/thefarside/configurator/tree/main/examples/modules/class-custom-post-type.php
  * Version: 0.0.1
  * Description: Facilitates registering CPT's using Configurator filters.
- * Requires at least: 6.9
- * Requires PHP: 8.4.11
+ * Requires at least: 7.0
+ * Requires PHP: 8.5.1
  */
 
 namespace Configurator\Modules;

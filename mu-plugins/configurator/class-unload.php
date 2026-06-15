@@ -4,7 +4,7 @@
  * Module URI: https://github.com/thefarside/configurator/tree/main/mu-plugins/configurator/class-unload.php
  * Version: 0.0.1
  * Description: Filter out modules from initialization by blog id.
- * Requires at least: 6.9.1
+ * Requires at least: 7.0
  * Requires PHP: 8.5.1
  */
 

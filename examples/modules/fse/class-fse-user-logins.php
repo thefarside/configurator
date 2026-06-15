@@ -4,8 +4,8 @@
  * Module URI: https://github.com/thefarside/configurator/tree/main/examples/modules/fse/class-fse-user-logins.php
  * Version: 0.0.1
  * Description: Removes the log in/out block from Gutenberg editors.
- * Requires at least: 6.9
- * Requires PHP: 8.4.11
+ * Requires at least: 7.0
+ * Requires PHP: 8.5.1
  */
 
 namespace Configurator\Modules\FSE;

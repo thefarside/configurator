@@ -4,8 +4,8 @@
  * Module URI: https://github.com/thefarside/configurator/tree/main/examples/modules/class-emails-privacy-export.php
  * Version: 0.0.1
  * Description: Disables confirmation emails for personal data export and removes the related GUI elements.
- * Requires at least: 6.9
- * Requires PHP: 8.4.11
+ * Requires at least: 7.0
+ * Requires PHP: 8.5.1
  * Requires Modules: Configurator\Helpers\DOMXPath, \DOMDocument
  */
 

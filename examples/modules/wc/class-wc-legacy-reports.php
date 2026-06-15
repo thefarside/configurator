@@ -4,8 +4,8 @@
  * Module URI: https://github.com/thefarside/configurator/tree/main/examples/modules/wc/class-wc-legacy-reports.php
  * Version: 0.0.1
  * Description: Rolls back WooCommerce "Reports" to the old version and fixes/removes warnings.
- * Requires at least: 6.9
- * Requires PHP: 8.4.11
+ * Requires at least: 7.0
+ * Requires PHP: 8.5.1
  * Requires Modules: \DOMDocument
  */
 

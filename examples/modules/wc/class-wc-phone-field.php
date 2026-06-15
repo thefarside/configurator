@@ -4,8 +4,8 @@
  * Module URI: https://github.com/thefarside/configurator/tree/main/examples/modules/wc/class-wc-phone-field.php
  * Version: 0.0.1
  * Description: Removes "Phone" field from billing and shipping addresses on user accounts/profiles.
- * Requires at least: 6.9
- * Requires PHP: 8.4.11
+ * Requires at least: 7.0
+ * Requires PHP: 8.5.1
  */
 
 namespace Configurator\Modules\WC;

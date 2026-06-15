@@ -4,8 +4,8 @@
  * Module URI: https://github.com/thefarside/configurator/tree/main/examples/modules/fse/class-fse-comments.php
  * Version: 0.0.1
  * Description: Removes the comment blocks and option panels from Gutenberg editors.
- * Requires at least: 6.9
- * Requires PHP: 8.4.11
+ * Requires at least: 7.0
+ * Requires PHP: 8.5.1
  */
 
 namespace Configurator\Modules\FSE;
@@ -21,19 +21,22 @@ class FSE_Comments {
 	public static function unregister_editor_blocks( array $blocks ) : array {
 		return array_merge( $blocks, array(
 			'core/comments',
-			'core/comments-title',
 			'core/comments-pagination',
 			'core/comments-pagination-next',
-			'core/comments-pagination-previous',
 			'core/comments-pagination-numbers',
-			'core/comment-template',
+			'core/comments-pagination-previous',
+			'core/comments-title',
+			'core/latest-comments',
 			'core/comment-author-name',
-			'core/comment-date',
 			'core/comment-content',
+			'core/comment-date',
 			'core/comment-edit-link',
 			'core/comment-reply-link',
+			'core/comment-template',
+			'core/post-comments-count',
 			'core/post-comments-form',
-			'core/latest-comments',
+			'core/post-comments-link',
+			'core/post-comments',
 		) );
 	}
 

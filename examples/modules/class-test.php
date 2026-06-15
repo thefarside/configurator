@@ -4,7 +4,7 @@
  * Module URI: https://github.com/thefarside/configurator/tree/main/examples/modules/test.php
  * Version: 0.0.1
  * Description: Test description.
- * Requires at least: 6.9.1
+ * Requires at least: 7.0
  * Requires PHP: 8.5.1
  * Requires Modules: Configurator\Load
  */

@@ -4,8 +4,8 @@
  * Module URI: https://github.com/thefarside/configurator/tree/main/examples/modules/wc/fse/class-wc-fse-editor-blocks.php
  * Version: 0.0.1
  * Description: Facilitates filtering out WooCommerce blocks from Gutenberg editors.
- * Requires at least: 6.9
- * Requires PHP: 8.4.11
+ * Requires at least: 7.0
+ * Requires PHP: 8.5.1
  */
 
 namespace Configurator\Modules\WC\FSE;
@@ -13,21 +13,24 @@ namespace Configurator\Modules\WC\FSE;
 class WC_FSE_Editor_Blocks {
 
 	public static function initialize() : void {
-		add_filter( 'unregister_editor_blocks', array( static::class, 'unregister_editor_blocks' ), PHP_INT_MAX, 1 );
+		add_filter( 'unregister_editor_blocks', array( static::class, 'unregister_editor_blocks' ), PHP_INT_MAX, 1 );;
 		return;
 	}
 
 	public static function unregister_editor_blocks( array $blocks ) : array {
 		$post_and_site_context_blocks = array(
+			//'woocommerce/product-search',
 			'woocommerce/active-filters',
 			'woocommerce/add-to-cart-form',
 			'woocommerce/all-products',
 			'woocommerce/all-reviews',
 			'woocommerce/attribute-filter',
 			'woocommerce/cart-link',
-			'woocommerce/legacy-template',
+			'woocommerce/category-title',
+			'woocommerce/category-description',
 			'woocommerce/classic-shortcode',
 			'woocommerce/coming-soon',
+			'woocommerce/coupon-code',
 			'woocommerce/customer-account',
 			'woocommerce/email-content',
 			'woocommerce/featured-category',
@@ -88,6 +91,7 @@ class WC_FSE_Editor_Blocks {
 			'woocommerce/single-product',
 			'woocommerce/stock-filter',
 			'woocommerce/page-content-wrapper',
+			'woocommerce/order-confirmation-create-account',
 			'woocommerce/product-details',
 			'woocommerce/product-description',
 			'woocommerce/product-specifications',

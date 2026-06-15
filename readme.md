@@ -13,12 +13,12 @@ Modules follow a "static class" design where the `initialize()` method is typica
 It's also worth noting that this plugin and supplied modules don't contain any telemetry, advertisements, branding or 3rd party libraries. Everything is coded following [WordPress coding standards](https://developer.wordpress.org/coding-standards/wordpress-coding-standards) and works on a [recommended install](https://make.wordpress.org/hosting/handbook/server-environment/#php-extensions). Above all else, everything included is the full source offered completely for free!
 ## Requirements
  + PHP 8.5.1
- + Wordpress 6.9.1
+ + Wordpress 7.0
 
 ### Compatibility
  + Multisite
  + Gutenberg + FSE
- + WooCommerce 10.3.6
+ + WooCommerce 10.8.1
 
 ## Installation
  + Upload

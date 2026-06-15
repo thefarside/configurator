@@ -4,8 +4,8 @@
  * Module URI: https://github.com/thefarside/configurator/tree/main/examples/modules/ms/class-ms-activate-fse-warn.php
  * Version: 0.0.1
  * Description: Removes the depreciation notice displayed on wp-activate.php when using an FSE theme.
- * Requires at least: 6.9
- * Requires PHP: 8.4.11
+ * Requires at least: 7.0
+ * Requires PHP: 8.5.1
  */
 
 namespace Configurator\Modules\MS;

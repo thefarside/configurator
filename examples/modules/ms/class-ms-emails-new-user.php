@@ -4,8 +4,8 @@
  * Module URI: https://github.com/thefarside/configurator/tree/main/examples/modules/ms/class-ms-emails-new-user.php
  * Version: 0.0.1
  * Description: Restricts new user emails to login instructions regardless of how they become active on the network or blog and removes related GUI elements.
- * Requires at least: 6.9
- * Requires PHP: 8.4.11
+ * Requires at least: 7.0
+ * Requires PHP: 8.5.1
  * Requires Modules: Configurator\Helpers\Return_Types, Configurator\Helpers\DOMXPath, \DOMDocument
  */
 
